@@ -1,0 +1,22 @@
+
+body {
+    background-color: darkgreen;
+}
+
+
+h1 {
+    font-weight: bold;
+    background-color: aqua;
+    border-style: solid;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* p {
+    text-align: center;
+    color:red; 
+    background-color: black;
+    margin: 0;
+    font-size: 30px;
+} */
+
