@@ -5,7 +5,7 @@ const express = require('express');
 
 const app = express();
 
-const routes = require('./public/routes/routes')
+const routes = require('./routes/routes')
 
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(bodyParser.urlencoded({extended: false}));

@@ -1,7 +1,7 @@
 const {Router} = require('express');
 const router = Router();
 
-const getWeather = require('../../lib/getWeather');
+const getWeather = require('../lib/getWeather');
 
 router.get('/', (req, res) => {
     res.render('index')
